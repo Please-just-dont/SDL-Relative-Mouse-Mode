@@ -55,7 +55,7 @@ bool pollEvents(std::vector<SDL_Event>& sdl_events)
     {
         if (num_events_returned < 0)
         {
-			std::cout << "SDL_PeepEvents returned negative value: ", SDL_GetError();
+			std::cout << "SDL_PeepEvents returned negative value: " << SDL_GetError();
 			return false;
 		}
 
