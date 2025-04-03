@@ -53,7 +53,7 @@ bool pollEvents(std::vector<SDL_Event>& sdl_events)
 
     for (auto num_events_returned = SDL_PeepEvents(&sdl_events[total_num_events_read], MAX_NUM_EVENTS, SDL_EventAction::SDL_GETEVENT, SDL_EVENT_FIRST, SDL_EVENT_LAST); num_events_returned != 0;)
     {
-        if (num_events_returned < 1)
+        if (num_events_returned < 0)
         {
 			std::cout << "SDL_PeepEvents returned negative value: ", SDL_GetError();
 			return false;
