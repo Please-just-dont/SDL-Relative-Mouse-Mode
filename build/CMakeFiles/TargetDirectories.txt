@@ -1,8 +1,0 @@
-/home/moe/ProgrammingProjects/SDLExample/build/CMakeFiles/main.dir
-/home/moe/ProgrammingProjects/SDLExample/build/CMakeFiles/edit_cache.dir
-/home/moe/ProgrammingProjects/SDLExample/build/CMakeFiles/rebuild_cache.dir
-/home/moe/ProgrammingProjects/SDLExample/build/SDL/CMakeFiles/SDL3-shared.dir
-/home/moe/ProgrammingProjects/SDLExample/build/SDL/CMakeFiles/SDL3_test.dir
-/home/moe/ProgrammingProjects/SDLExample/build/SDL/CMakeFiles/SDL_uclibc.dir
-/home/moe/ProgrammingProjects/SDLExample/build/SDL/CMakeFiles/edit_cache.dir
-/home/moe/ProgrammingProjects/SDLExample/build/SDL/CMakeFiles/rebuild_cache.dir
