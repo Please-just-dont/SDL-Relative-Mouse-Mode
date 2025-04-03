@@ -44,7 +44,7 @@ ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
 add_executable(main ${MAIN_SOURCES})
 
 
-
+set(SDL_STATIC TRUE CACHE BOOL "" FORCE)
 
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/SDL)
 
